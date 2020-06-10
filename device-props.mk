@@ -1,3 +1,4 @@
+    vendor.display.enable_null_display=0 \
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
     aaudio.hw_burst_min_usec=2000 \
@@ -188,7 +189,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.mdpcomp.logs=0 \
     debug.sf.enable_hwc_vds=1 \
     debug.sf.hw=0 \
-    debug.sf.latch_unsignaled=1 \
+    debug.sf.latch_unsignaled=0 \
     vendor.gralloc.disable_ubwc=0 \
     ro.opengles.version=196610 \
     ro.hardware.egl=adreno \

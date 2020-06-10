@@ -21,7 +21,7 @@ $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_cepheus
@@ -38,3 +38,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/ANXCamera/config.mk)
+
+WITH_GAPPS=true
