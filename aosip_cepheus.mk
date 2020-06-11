@@ -24,7 +24,7 @@ IS_PHONE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := derp_cepheus
+PRODUCT_NAME := aosip_cepheus
 PRODUCT_DEVICE := cepheus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9
@@ -36,7 +36,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Inherit from custom vendor
-$(call inherit-product, vendor/ANXCamera/config.mk)
 
 WITH_GAPPS=true
